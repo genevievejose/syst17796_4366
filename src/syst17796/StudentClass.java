@@ -5,7 +5,7 @@
  */
 package syst17796;
 
-/**
+/** this class having all required student attributes 
  *
  * @author Owner
  */
