@@ -10,8 +10,9 @@ package syst17796;
  * @author Owner
  */
 public class StudentClass {
-    public int id;
-    public String name;
+    private int id;
+    private String name;
+    private String address;
 
     /**
      * @return the id
@@ -43,5 +44,19 @@ public class StudentClass {
 
     void setid(int nextInt) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
